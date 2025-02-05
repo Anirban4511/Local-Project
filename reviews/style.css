@@ -1,0 +1,122 @@
+*{
+   color: white;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+}
+#circle{
+    position: relative;
+    top: 10px;
+    left: 4px;
+    margin: 2px;
+    color: black;
+}
+/* .fa-solid fa-lock{
+font-size: 23px;
+height: 30vh;
+} */
+#box{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    background-color: rgb(31, 27, 27);
+ }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    height: 100vh;
+   
+}
+.left
+{
+    display: flex;
+    gap: 4px;
+}
+p{
+    position: relative;
+    top: 10px;
+}
+.right
+{
+    display: flex;
+    position: relative;
+    gap: 3px;
+    left: 54%;
+    top: -2px;
+
+}
+p.net{
+    /* font-size:6px;
+position:relative ;
+top: -2px;
+left: 3px; */
+
+}
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 15px;
+    font-size: 22px;
+}
+.container{
+    /* border: 1px solid red; */
+    position:relative;
+    height: 420px;
+    width: 220px;
+    box-shadow: brown;
+    background-image:url('wall.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    /* background-color: rgb(16, 12, 12); */
+  
+}
+.swipe{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9px;
+    color: rgb(232, 218, 218);
+}
+@keyframes moveUp {
+
+    0% {
+        /* transform: scaleX(2); */
+      transform: translateY(0);
+      /* transform: scaleX(2); */
+    }
+    30% {
+        /* transform: scaleX(2); */
+      transform: translateY(-20px); /* Moves the icon up */
+      
+    }
+    /* 70% {
+      transform: translateY(0); 
+    } */
+  }
+  
+  .icon {
+    display: inline-block;
+    font-size: 12px;
+    transform: scaleX(2);
+    /* display: inline-block; */
+    transform-origin: center; 
+    /* font-size: 50px; */
+    animation: moveUp 2s cubic-bezier(0, 0.25, 0.27, 1.55) infinite;
+  }
+  
+
+.icon{
+   
+}

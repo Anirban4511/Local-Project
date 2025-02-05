@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.con{
+    height: 100px;
+    width: 100px;
+}
+.container-1{    
+background-color: red;
+padding: 23px;
+
+margin-right: 4px;
+}
+.container-2{
+    color: white;
+    margin: 2px;
+    background-color: black;
+    
+}
