@@ -55,23 +55,22 @@ p{
     top: -2px;
 
 }
-p.net{
-    /* font-size:6px;
-position:relative ;
-top: -2px;
-left: 3px; */
 
-}
-.bottom
-{
+.bottom {
+    position: absolute;
+    bottom: 50px; /* Adjust this to keep space above the camera */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
-    gap: 15px;
-    font-size: 22px;
+    width: 100%;
+    gap: 8px; /* Reduced gap for better alignment */
+    font-size: clamp(14px, 2vw, 22px); /* Responsive font size */
+    text-align: center;
 }
+
 .container{
     /* border: 1px solid red; */
     position:relative;
@@ -117,6 +116,3 @@ left: 3px; */
   }
   
 
-.icon{
-   
-}
